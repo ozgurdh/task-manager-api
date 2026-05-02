@@ -2,8 +2,6 @@
 
 A simple RESTful API built with FastAPI for managing tasks. This project demonstrates backend development fundamentals including CRUD operations, database integration, and containerization.
 
----
-
 ## 🚀 Features
 
 - Create, read, update and delete tasks (CRUD)
@@ -11,8 +9,6 @@ A simple RESTful API built with FastAPI for managing tasks. This project demonst
 - Clean and modular project structure (main, schemas, crud)
 - RESTful API design
 - Docker support
-
----
 
 ## 🛠️ Tech Stack
 
@@ -22,24 +18,22 @@ A simple RESTful API built with FastAPI for managing tasks. This project demonst
 - SQLite
 - Docker
 
----
-
 ## 📂 Project Structure
 
+```text
 task-manager-api/
 │
 ├── app/
-│ ├── main.py # API endpoints
-│ ├── database.py # DB connection
-│ ├── models.py # Database models
-│ ├── schemas.py # Request/response models
-│ └── crud.py # Database operations
+│   ├── main.py        # API endpoints
+│   ├── database.py    # Database connection
+│   ├── models.py      # Database models
+│   ├── schemas.py     # Request/response models
+│   └── crud.py        # Database operations
 │
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## ▶️ Run Locally (Optional)
 
@@ -70,8 +64,6 @@ uvicorn app.main:app --reload
 http://127.0.0.1:8000/docs
 ```
 
----
-
 ## 🐳 Run with Docker (Recommended)
 
 **1. Clone the Repository:**
@@ -94,8 +86,6 @@ docker run -p 8000:8000 task-api
 ```bash
 http://localhost:8000/docs
 ```
-
----
 
 ## 📬 Example Request
 
