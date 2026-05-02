@@ -39,7 +39,7 @@ task-manager-api/
 
 **1. Clone the Repository:**
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/ozgurdh/task-manager-api.git
 cd task-manager-api
 ```
 
@@ -68,7 +68,7 @@ http://127.0.0.1:8000/docs
 
 **1. Clone the Repository:**
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/ozgurdh/task-manager-api.git
 cd task-manager-api
 ```
 
